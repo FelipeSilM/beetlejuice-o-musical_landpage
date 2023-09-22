@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 40px 20px;
+
+    h3{
+        font-family: 'Lobster', cursive;
+        font-size: 32px;
+        text-decoration: underline;
+    }
+
+    &__links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .text{
+        text-align: center;
+    }
+}

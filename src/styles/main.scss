@@ -1,0 +1,73 @@
+@use "hero";
+@use "more-about";
+@use "cast";
+@use "timer";
+@use "faq";
+@use "footer";
+@use "components/buttons";
+
+@mixin text($fontSize:16px){
+    font-size: $fontSize;
+    line-height: $fontSize + 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    user-select: none;
+}
+
+body{
+    height: 100vh;
+    background-color: #010101;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1112px;
+    width: 100%;
+
+}
+
+.title-main{
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+
+    @media(max-width:769px){
+        font-size: 50px;
+    }
+}
+
+.title{
+    @include text(80px);
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+
+    @media(max-width:769px){
+        font-size: 40px;
+    }
+}
+
+.text-bigger{
+    @include text(32px);
+    text-align: center;
+}
+
+.text-big{
+    @include text(24px);
+}
+
+.text{
+    @include text;
+}
+
+.text-small{
+    @include text(14px);
+    color: rgba(255, 255, 255, 0.571);
+}
