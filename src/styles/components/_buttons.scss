@@ -1,25 +1,27 @@
+@use "../variaveis";
+
 .button{
     display: inline-block;
     padding: 12px;
     font-size: 18px;
     border-radius: 8px;
-    border: 1px solid white;
+    border: 1px solid variaveis.$white;
     text-align: center;
     transition: all, .3s;
     
     &:hover{
-        background-color: white;
-        color: #000;
+        background-color: variaveis.$white;
+        color: variaveis.$black;
     }
     
     &--full{
-        background-color: #fff;
-        color: #000;
+        background-color: variaveis.$white;
+        color: variaveis.$black;
         transition: all, .3s;
 
         &:hover{
             background-color: transparent;
-            color: #fff;
+            color: variaveis.$white;
         }
     }
 }

@@ -1,3 +1,5 @@
+@use "variaveis";
+
 .timer{
     padding-top: 40px;
 
@@ -18,7 +20,7 @@
         margin: 80px auto 0;
 
         border-radius: 8px;
-        border: 1px solid #fff;
+        border: 1px solid variaveis.$white;
         padding: 16px;
 
         &__infos{
