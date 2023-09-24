@@ -1,10 +1,12 @@
+@use "variaveis";
+
 .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 36px;
     padding: 40px 20px;
-    background-color: #242323;
+    background-color: variaveis.$footerColor;
 
     h3{
         font-family: 'Lobster', cursive;
