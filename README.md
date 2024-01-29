@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-O projeto se trata de uma landpage com foco em passar informações da peça de teatro da broadway. Como base tendo o musical "Beetlejuice - O musical, o musical, o musical" o foi criado para praticar estudos em estrutura de páginas front-end.
+O projeto se trata de uma landpage com foco em passar informações da peça de teatro da broadway. Como base sendo o musical "Beetlejuice - O musical, o musical, o musical" o programa foi criado para praticar estudos em estrutura de páginas front-end.
 
 ## Desafio
 
